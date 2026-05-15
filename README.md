@@ -2,11 +2,11 @@
 Application web de gestion de bibliothèque développée avec Flutter Web, Spring Boot et PostgreSQL. Le projet permet la gestion des livres, lecteurs et réservations avec API REST, tests d’intégration et gestion des conflits de réservation.
 
 # Stack technique
-| Couche          | Technologie              |
-| Backend         | Spring Boot 3 (Java 17)  |
-| Base de données | PostgreSQL 15        |
-| Frontend        | Flutter 3                |
-| API             | REST (JSON)              |
+
+ Backend         avec Spring Boot 3 (Java 17)  
+ Base de données avec PostgreSQL 15        
+ Frontend        avec Flutter 3                
+ API             avec REST (JSON)              
 
 # Justification
 *Spring Boot offre une gestion robuste des transactions (@Transactional)
@@ -35,9 +35,6 @@ cross-platform connectée à l'API REST.
 | GET     | `/api/dashboard`           | Statistiques générales        |
 
 ## Les codes sql pour creer les tables dans postgre a travers pgadmin 4 ##
--- =============================================
--- BIBLIOTHEQUE DB - Script de création
--- =============================================
 
 -- Table Livre
 CREATE TABLE livre (
